@@ -16,6 +16,10 @@
 
 .container {
   display:grid;
+  grid-template-columns: 1fr 6fr 6fr 5fr 6fr 6fr 1fr; /*insert format here*/;
+  grid-template-rows: 80px 80px 80px 10px 10px 80px ;/*insert formal here*/;
+
+
   /* Style the template for the grid */
 }
 
@@ -23,13 +27,34 @@
 #b {
   background-color: black;
 }
+.top
+{
+  grid-row:span 1;
+  grid-column: span 10;
+}
+.sideR
+{
+  grid-row:span 25;
+  grid-column: span 1;
+
+}
+
+.sideL{
+  grid-row:span 25;
+  grid-column: span 1 ;
+}
+
 
 #title {
   grid-column: span 12;
 }
 
 .photo {
-  grid-column: /*insert format*/;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 40px 40px 40px;
+
+
+  : /*insert format*/;
 }
 
 /* Style remaining grid elements */
