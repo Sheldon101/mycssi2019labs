@@ -1,0 +1,76 @@
+
+  font-family: sans-serif;
+}
+
+/* Color each language element */
+#ruby {background-color: #DF4638;}
+#python {background-color: #8DAD53;}
+#js {background-color: #A8D3DD;}
+#hyper {background-color: #F7CC77;}
+#css {background-color: #2454DB;}
+#aframe {background-color: #DB4260;}
+#p5 {background-color: #E88A9F;}
+#bootstrap {background-color: #7157AD;}
+#java {background-color: #CA2B1D;}
+#swift {background-color: #ED7B46;}
+
+/* Style the .row elements */
+.row {
+  display: flex;
+  background-color: rgba(0,0,0,0.1);
+  margin: 10px;
+  min-height: 120px;
+}
+
+/* Style the font of the .item elements */
+.item {
+  font-size: 32px;
+  color: white;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  white-space: nowrap;
+  padding: 20px 10px;
+  min-width: 145px;
+}
+
+/* ----------------------------------------------- */
+/* ---Please do not modify code above this line--- */
+/* ----------Code your flex classes below--------- */
+/* ----------------------------------------------- */
+
+/* Parent or Container elements */
+/* Style them all at once with this selector */
+.row {
+
+}
+
+/* OR Style each row individually with these selectors */
+#row1 {
+/*flex-direction: column-reverse; changes the direction of the boxes*/
+/* align-items: flex-start;  will change the location, be located at the top*/
+justify-content:space-between;
+}
+
+#row2 {
+/*lex-direction:column;*/
+ /*align-items: flex-end;*/
+justify-content: space-around;
+}
+
+#row3 {
+/*flex-direction: row;*/
+/* align-items: center;*/
+justify-content:space-evenly;
+align-items: center;
+
+}
+
+#Sub3 {
+display: flex;
+}
+
+
+/* Child elements or items */
+.item {
+
+}
