@@ -1,0 +1,16 @@
+const myButton= document.querySelector("#mybutton");
+const myBox= document.querySelector("#box");
+myButton.addEventListener("click", (event)=>
+{
+console.log("Like button clicked!");
+myButton.innerHTML = "Liked!";
+myButton.style.backgroundColor= "lightgreen";
+});
+
+myButton.addEventListener("mousemove", (event)=>{
+let red= Math.round(Math.random()*225);
+let green = Math.round(Math.random()*225);
+let blue = Math.round(Math.random()*225);
+myButton.style.backgroundColor= "rgb("+ red +"," + green+ "," + blue
+}
+);
