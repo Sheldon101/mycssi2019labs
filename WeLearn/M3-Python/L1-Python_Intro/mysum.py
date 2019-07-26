@@ -13,6 +13,8 @@
 def findSum(x):
     sum=0
     for i in range(x):
-      sum=sum+1
- return sum+x # add the last integer
+       sum = sum+1
+ return sum + x
+
 print (findSum(20))
+# add the last integer
