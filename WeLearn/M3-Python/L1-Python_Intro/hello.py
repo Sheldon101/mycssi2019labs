@@ -51,5 +51,8 @@
 #
 # print(createAgentGreeting("Citlally", "G"))
 # second way
-
- 
+word = "computerz"
+print(word[:5])  # prints "compu"
+print(word[:-1])  # prints "computer"
+print(word[4:])  # prints "uterz"
+print(word[-3:])  # prints "erz"
