@@ -16,7 +16,7 @@ class EnterInfoHandler(webapp2.RequestHandler):
         self.response.write("A post request to the EnterInfoHandler")
 
 
-class ShowMemeHandler(webapp2.RequestHandler):
+class ShowLoginHandler(webapp2.RequestHandler):
     def post(self):
 
         results_template = the_jinja_env.get_template('templates/login.html')
